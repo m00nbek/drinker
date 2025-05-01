@@ -1,0 +1,89 @@
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## User settings
+xcuserdata/
+
+## Xcode Project Settings
+*.xcscmblueprint
+*.xccheckout
+
+## Xcode Derived Data
+DerivedData/
+
+## Xcode Build Products
+build/
+*.build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+## Compiler-generated files
+*.hmap
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+## Swift Package Manager
+Packages/
+Package.pins
+Package.resolved
+*.xcodeproj
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+
+## CocoaPods
+Pods/
+*.xcworkspace
+
+## Carthage
+Carthage/Build/
+
+## macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+## Thumbnails
+._*
+
+## Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+## Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+
+## Logs and databases
+*.log
+*.sqlite
+
+## Personal and local configuration
+*.local
+*.mode
+*.perspective
+
+## Swift Package Manager local configuration
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+
+## Sensitive information (add your specific sensitive files here)
+# secrets.json
+# config.local
+
+## Optional: Swift Package Manager artifacts
+.build/
