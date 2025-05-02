@@ -3,10 +3,11 @@
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
 ## User settings
-xcuserdata/
+*.xcuserdata/
+**/*.xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
 *.xcuserstate
-project.xcworkspace/
-xcuserdata/
 *.xcscmblueprint
 *.xccheckout
 
