@@ -4,6 +4,11 @@
 
 ## User settings
 xcuserdata/
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
 
 ## Xcode Project Settings
 *.xcscmblueprint
